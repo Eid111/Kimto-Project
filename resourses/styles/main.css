@@ -61,16 +61,77 @@ nav .logo img{
     flex-direction: row;
     list-style-type: none;
 }
-
-.list-icons button{
+/* Setting LOG IN icon */
+.list-icons .log-in{
     height: 3rem;
     width: 6rem;
     border-radius: .58rem;
     background-color: #131118;
     color: #f3f3f3;
     font-size: 1.3rem;
+    text-transform: uppercase;
 
 }
-.list-icons button:hover{
+.list-icons .log-in:hover{
     cursor: pointer;
+}
+
+/* setting hero Section  */
+.hero-section{
+    padding-inline: 5rem;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 500px;
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10rem;
+}
+/* setting hero Section  explanition*/
+.hero-section .hero-section-explanition{
+    padding-top: 3rem;
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.hero-section .hero-section-explanition h3{
+    padding-top: 1rem;
+    font-weight: 300;
+}
+.hero-section .hero-section-explanition p{
+    text-transform: uppercase;
+}
+/* setting hero Section  explanition buttom shop now*/
+.hero-section .hero-section-explanition .shop-now{
+    height: 3rem;
+    width: 10rem;
+    border-radius: .58rem;
+    background-color: #131118;
+    color: #f3f3f3;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.hero-section .hero-section-explanition .shop-now:hover{
+    cursor: pointer;
+}
+/* setting hero Section  master-image*/
+.hero-section .master-image{
+    width: 400px;
+    height: 400px;
+
+    align-items: center;
+    margin: 2rem;
+}
+.hero-section .master-image img{
+    width: 90%;
+    height: 100%;
+    filter: grayscale(100%);
 }

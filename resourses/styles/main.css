@@ -1,0 +1,76 @@
+/* adding my font */
+@font-face {
+    font-family: "customfont";
+    src: url("../assets/fonts/LibreFranklin-VariableFont_wght.ttf");
+}
+/* Css resset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Setting the body elements */
+body{
+    background-color: #f2f2f2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Basics of navigation bar */
+nav{
+    height: 10rem;
+    background-color: #f3f3f3;
+    padding-inline: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* setting the logo  */
+nav .logo img{
+    height: 6rem;
+    width: 12rem;
+}
+/* setting list of other pages  */
+.hero-list-pages{
+
+}
+.hero-list-pages .list-pages{
+    display: flex;
+    gap: 1.45rem;
+    list-style-type: none;
+    
+}
+.hero-list-pages .list-pages a{
+    text-decoration: none;
+    color: #545454;
+    font-size: 1.35rem;
+}
+
+/* Setting the icons */
+.list-icons{
+    display: flex;
+    gap: 1.66rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.list-icons ul{
+    display: flex;
+    gap: .98rem;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.list-icons button{
+    height: 3rem;
+    width: 6rem;
+    border-radius: .58rem;
+    background-color: #131118;
+    color: #f3f3f3;
+    font-size: 1.3rem;
+
+}
+.list-icons button:hover{
+    cursor: pointer;
+}

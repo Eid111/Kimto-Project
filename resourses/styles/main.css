@@ -18,6 +18,11 @@ body{
 }
 /* Basics of navigation bar */
 nav{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
     height: 10rem;
     background-color: #f3f3f3;
     padding-inline: 3rem;
@@ -139,3 +144,225 @@ nav .logo img{
     
 }
  */
+
+
+
+/* Setting the footer */
+footer{
+    margin-top: 3rem;
+    width: 100%;
+    height: 387px;
+    background-color: #131118;
+    padding-inline: 5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    margin-block: 3rem;
+}
+
+/* Setting the footer logoAndContact-section */
+.logoAndContact-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2; 
+
+}  
+/* Setting the footer logo */
+.logoAndContact-section .footer-logo img{
+    height: 6rem;
+    width: 12rem;
+}
+/* Setting the footer contact-us */
+.logoAndContact-section .contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+}
+.logoAndContact-section .contact-us p{
+    font-size: 1rem;
+    gap: .5rem;
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+}
+/* setting the footer contact-us hover */
+.logoAndContact-section .contact-us .phone:hover{
+    cursor: pointer;
+}
+.logoAndContact-section .contact-us .mail:hover{
+    cursor: pointer;
+}
+/* Setting the footer our-location */
+
+.logoAndContact-section .our-location .location{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+} 
+
+.logoAndContact-section .our-location p  a{
+    text-decoration: none;  
+    color: #f2f2f2; 
+}   
+
+/* Setting the footer Information  */
+.information .footer-information{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    color: #f2f2f2;
+}
+/* Setting the footer Information h3 */
+.information .footer-information h3{
+    font-size: 1.25rem;
+}
+/* Setting the footer Information Pages */
+.information .footer-information-pages{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+    color: #f2f2f2;
+}
+.information .footer-information-pages li{
+    font-size: 1rem;
+    list-style-type: none;
+}
+.information .footer-information-pages li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    
+}
+/* Setting the footer Information  */
+.service .footer-service{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    color: #f2f2f2;
+}
+/* Setting the footer Information h3 */
+.service .footer-service h3{
+    font-size: 1.25rem;
+}
+/* Setting the footer Information Pages */
+.service .footer-service-pages{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+    color: #f2f2f2;
+}
+.service .footer-service-pages li{
+    font-size: 1rem;
+    list-style-type: none;
+}
+.service .footer-service-pages li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    
+}
+
+/* Setting the footer Subscribe */
+.subscribe .footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    color: #f2f2f2;
+}
+/* Setting the footer Subscribe h3 */
+.subscribe .footer-subscribe h3{
+    font-size: 1.25rem;
+}
+/* Setting the footer Subscribe p */
+.subscribe .footer-subscribe p{
+    font-size: 1rem;
+}
+/* Setting the footer Subscribe a */
+.subscribe .footer-subscribe a{
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}  
+.subscribe .footer-subscribe a i{
+    margin: 1.15rem;
+}
+
+/* setting footer copyright */
+footer .footer-copyright{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: #f2f2f2;
+    font-size: 1rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+/* setting footer copyright powerd by */
+footer .footer-copyright .powerd-by{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}   
+footer .footer-copyright .powerd-by .footer-copyright-powerd{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;  
+} 
+footer .footer-copyright .powerd-by .footer-copyright-powerd li{
+    list-style-type: none;
+    font-size: 1.56rem;
+    color: #298FC2;
+}
+
+#copyright{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+/* setting footer copyright our socail */
+footer .footer-copyright .our-socail{
+    display: flex;
+    flex-direction: row;    
+}
+footer .footer-copyright .our-socail .footer-our-socail{
+    display: flex;      
+    gap: 1rem;   
+}
+footer .footer-copyright .our-socail .footer-our-socail li{
+    list-style-type: none;
+}
+footer .footer-copyright .our-socail .footer-our-socail li a i{
+    
+    font-size: 1.56rem;
+    color: #298FC2;
+}
+
+
+
+
+
+
